@@ -42,8 +42,8 @@ pip install gym box2d-py tensorflow pygame numpy
 1. Clone the repository and navigate to the desired project directory.
 
 ```bash
-git clone https://github.com/your-repo-link/MachineLearning-Projects.git
-cd MachineLearning-Projects/<desired-project-directory>
+git clone https://github.com/William-Laverty/ML-Portfolio.git
+cd ML-Portfolio/<desired-project-directory>
 ```
 
 2. Ensure you have the required packages installed for the chosen project (see the Installation section).
