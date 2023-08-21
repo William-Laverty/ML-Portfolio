@@ -1,56 +1,58 @@
-# 🚀 Machine Learning Projects Repository
+# 🚀 Machine Learning Portfolio
 
-Welcome to the repository containing a collection of machine learning projects. This repo demonstrates the power and versatility of machine learning across various domains, from predicting student performance to landing a spacecraft safely on a lunar surface.
+Explore a diverse range of machine learning projects, showcasing the profound capabilities and adaptability of ML—from understanding student performance to facilitating the safe landing of spacecraft on lunar surfaces.
 
-## 📘 Projects
+## 📘 Featured Projects
 
-### 1. Student Performance Predictor
+### 🎓 **Student Performance Predictor**
+* **Objective**: Forecast students' final grades leveraging various academic and socio-economic indicators.
+* **Technique**: Linear Regression
+* **Dataset**: "student-mat.csv" from [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/Student+Performance), emphasizing performance in mathematics.
+* **Highlights**: 
+  * Command-line interface (CLI) for grade predictions.
+  * Extensive data analysis and visual insights.
+* **Dive Deeper**: Explore the [`gradePredictor.ipynb`](https://github.com/cgs-ist/student-grade-predictor-William-Laverty/blob/main/Linear%20Regression/gradePredictor.ipynb).
 
-Predict student performance using the Linear Regression technique. The goal is to forecast the final grades of students based on various academic and socio-economic factors.
+### 🌖 **Lunar Lander Performance Predictor**
+* **Objective**: Equip a spacecraft with the capability to safely land on a lunar surface.
+* **Technique**: Deep Q-Network (DQN)
+* **Environment**: `LunarLander-v2` from OpenAI's gym, simulating lunar landing challenges.
+* **Highlights**: 
+  * Real-time spacecraft visualization.
+  * DQN algorithm implementation.
+  * Success metrics to evaluate performance.
+* **Dive Deeper**: Navigate to [`LunarLander_Predictor.ipynb`](https://github.com/cgs-ist/student-grade-predictor-William-Laverty/blob/main/Reinforced%20Learning/LunarLander_Predictor.ipynb).
 
-- **About**: This algorithm uses the "student-mat.csv" dataset from the [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/Student+Performance). The dataset contains information about student performance in mathematics.
-- **Details**: Dive deeper into this project by exploring [`gradePredictor.ipynb`](https://github.com/cgs-ist/student-grade-predictor-William-Laverty/blob/main/Linear%20Regression/gradePredictor.ipynb).
-- **Key Features**: Command-line interface (CLI) version for grade predictions, comprehensive data analysis, and visual insights.
+## 🔨 Set Up & Installation
 
-### 2. Lunar Lander Performance Predictor
+Ensure you have the essential packages installed to seamlessly run the projects:
 
-Train a spacecraft to safely land on a lunar surface using a Deep Q-Network (DQN).
-
-- **About**: The project uses the `LunarLander-v2` environment from OpenAI's gym to simulate the challenges of landing a spacecraft on the moon.
-- **Details**: Dive deeper into this project by exploring [`LunarLander_Predictor.ipynb`](https://github.com/cgs-ist/student-grade-predictor-William-Laverty/blob/main/Reinforced%20Learning/LunarLander_Predictor.ipynb).
-- **Key Features**: Real-time spacecraft visualization, DQN implementation, and success metrics.
-
-## 🔨 Installation
-
-To ensure you can run the projects smoothly, make sure to install the necessary packages. Depending on the project you're interested in, you may need to install different sets of packages.
-
-For **Student Performance Predictor**:
-
+**Student Performance Predictor**:
 ```bash
-pip install pandas numpy scikit-learn ipywidgets ttkthemes numpy matplotlib.pyplot
+pip install pandas numpy scikit-learn ipywidgets ttkthemes matplotlib.pyplot
 ```
 
-For **Lunar Lander Performance Predictor**:
-
+**Lunar Lander Performance Predictor**:
 ```bash
 brew install swig
 pip install gym box2d-py tensorflow pygame numpy
 ```
 
-## 🧑‍💻 Usage
+## 🧑‍💻 Getting Started
 
-1. Clone the repository and navigate to the desired project directory.
-
+1. Clone the repository:
 ```bash
 git clone https://github.com/William-Laverty/ML-Portfolio.git
+```
+2. Change directory to the desired project:
+```bash
 cd ML-Portfolio/<desired-project-directory>
 ```
+3. Confirm all necessary packages are installed (refer to the Installation section).
 
-2. Ensure you have the required packages installed for the chosen project (see the Installation section).
+4. Launch the respective Jupyter notebook for an in-depth exploration of the project.
 
-3. Run the respective Jupyter notebook to explore the project in-depth.
-
-## 🌐 Links & References
+## 🌐 Additional Resources
 
 - [UCI Machine Learning Repository: Student Performance](https://archive.ics.uci.edu/ml/datasets/Student+Performance)
 - [OpenAI Gym](https://gym.openai.com)
