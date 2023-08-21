@@ -23,6 +23,14 @@ Explore a diverse range of machine learning projects, showcasing the profound ca
   * Success metrics to evaluate performance.
 * **Dive Deeper**: Navigate to [`LunarLander_Predictor.ipynb`](https://github.com/cgs-ist/student-grade-predictor-William-Laverty/blob/main/Reinforced%20Learning/LunarLander_Predictor.ipynb).
 
+## 📖 **A Comprehensive Guide to Machine Learning**
+
+For both newcomers and seasoned practitioners in the field of machine learning, this guide serves as an invaluable resource. Whether you're starting your journey or looking to solidify your understanding of various techniques, delve into this comprehensive guide.
+
+* **Explore**: Familiarize yourself with core concepts, best practices, and nuanced approaches in machine learning.
+* **Content**: The guide covers topics ranging from the foundational principles of machine learning to the advanced intricacies of specific algorithms.
+* **Deep Dive**: Navigate to [A Guide to Machine Learning](https://github.com/William-Laverty/ML-Portfolio/blob/main/A%20Guide%20to%20Machine%20Learning.md) for a detailed exploration.
+
 ## 🔨 Set Up & Installation
 
 Ensure you have the essential packages installed to seamlessly run the projects:
