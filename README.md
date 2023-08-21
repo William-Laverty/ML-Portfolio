@@ -1,6 +1,6 @@
 # 🚀 Machine Learning Portfolio
 
-Explore a diverse range of machine learning projects, showcasing the profound capabilities and adaptability of ML—from understanding student performance to facilitating the safe landing of spacecraft on lunar surfaces.
+Explore a diverse range of machine learning projects, showcasing the profound capabilities and adaptability of ML from understanding student performance to facilitating the safe landing of spacecraft on lunar surfaces.
 
 ## 📘 Featured Projects
 
